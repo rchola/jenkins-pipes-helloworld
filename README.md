@@ -1,7 +1,7 @@
 
 # Jenkins Pipes HelloWorld
 
-A minimal and stupid "helloworld" example project for the [Jenkins Pipes](https://github.com/tknerr/jenkins-pipes-infra) demo:
+Exemplo minimo de projeto realizado em Jenkisfile para um HelloWorld
 
  * the `Jenkinsfile` describes **HOW** to build this project in [Pipeline-DSL](https://jenkins.io/doc/book/pipeline/syntax/)
 
