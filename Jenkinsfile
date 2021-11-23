@@ -10,7 +10,7 @@ node {
       echo "Compilando hello.sh..."
     }
     stage('Teste') {
-      sh "./test_hello.sh"
+      sh "/var/lib/jenkins/workspace/teste-pipeline-1_master/test_hello.sh"
     }
     stage('Empacotamento') {
       sh "tar -cvzf hello.tar.gz hello.sh"
